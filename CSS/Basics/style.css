@@ -1,0 +1,27 @@
+/* Element selectors */
+
+/* Class selector */
+
+
+/* id selector */
+
+
+/* Grouping selectors */
+h2 , p, div{
+    background-color: yellow;
+}
+
+/* Attribute selector */
+[data-name="hello"]{
+    background-color: green;
+}
+
+/* Descendent selectors */
+.container p{
+    color: red;
+}
+
+/* direct child selectors */
+.container > p{
+    color: red;
+}

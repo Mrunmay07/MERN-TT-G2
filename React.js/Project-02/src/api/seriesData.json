@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "rating": 8.7,
+    "year": 2016,
+    "image": "https://image.tmdb.org/t/p/w500/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Breaking Bad",
+    "genre": "Crime, Drama",
+    "rating": 9.5,
+    "year": 2008,
+    "image": "https://image.tmdb.org/t/p/w500/ggFHVNu6YYI5L9pCfOacjizRGt.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Money Heist",
+    "genre": "Crime, Thriller",
+    "rating": 8.2,
+    "year": 2017,
+    "image": "https://image.tmdb.org/t/p/w500/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg"
+  },
+  {
+    "id": 4,
+    "title": "The Witcher",
+    "genre": "Fantasy, Action",
+    "rating": 8.0,
+    "year": 2019,
+    "image": "https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Squid Game",
+    "genre": "Thriller, Drama",
+    "rating": 8.0,
+    "year": 2021,
+    "image": "https://image.tmdb.org/t/p/w500/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Dark",
+    "genre": "Sci-Fi, Mystery",
+    "rating": 8.8,
+    "year": 2017,
+    "image": "https://image.tmdb.org/t/p/w500/apbrbWs8M9lyOpJYU5WXrpFbk1Z.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Narcos",
+    "genre": "Crime, Biography",
+    "rating": 8.8,
+    "year": 2015,
+    "image": "https://image.tmdb.org/t/p/w500/rTmal9fDbwh5F0waol2hq35U4ah.jpg"
+  },
+  {
+    "id": 8,
+    "title": "The Crown",
+    "genre": "Drama, History",
+    "rating": 8.6,
+    "year": 2016,
+    "image": "https://image.tmdb.org/t/p/w500/1M876KPjulVwppEpldhdc8V4o68.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Wednesday",
+    "genre": "Comedy, Fantasy",
+    "rating": 8.1,
+    "year": 2022,
+    "image": "https://image.tmdb.org/t/p/w500/9PFonBhy4cQy7Jz20NpMygczOkv.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Lucifer",
+    "genre": "Fantasy, Crime",
+    "rating": 8.1,
+    "year": 2016,
+    "image": "https://image.tmdb.org/t/p/w500/4EYPN5mVIhKLfxGruy7Dy41dTVn.jpg"
+  }
+]

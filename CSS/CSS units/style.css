@@ -1,0 +1,35 @@
+.container{
+    background-color: coral;
+    /* width: 1200px;
+    height: 500px;
+    padding: 40px;
+    margin: 50px; */
+    /* height: 50vh; */
+    font-size: 40px;
+    padding: 50px;
+}
+
+html{
+    font-size: 20px;
+}
+
+.box{
+    background-color: chartreuse;
+    /* width: 50%;
+    height: 50%; */
+    /* padding: 50%; */
+   /*  margin: 50%; */
+   /* border: 10% solid black; */
+   /*  width: 50vw; */
+   
+  /*  height: 3em;
+   padding: 2em;
+   margin: 2em;
+   border: 2em solid black; */
+
+   width: 3rem; 
+   height: 2rem;
+   margin: 2rem;
+   padding: 2rem;
+   border: 1rem solid red;
+}

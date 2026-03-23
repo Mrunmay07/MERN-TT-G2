@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+.card{
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 2rem;
+}
+
+.card img{
+    max-width: 350px;
+    width: 100%;
+}
+
+.container{
+   display: grid;
+   grid-template-columns: repeat(3 , 1fr);
+   grid-template-rows: repeat(3 , 1fr);
+   gap: 4rem;
+}

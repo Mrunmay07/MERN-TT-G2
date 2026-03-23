@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Momo+Signature&family=Oswald:wght@200..700&family=Preahvihear&display=swap');
+
+h1{
+    font-size: 50px;
+    letter-spacing: 20px;
+    font-family: 'Bitcount Grid Single'
+}
+
+p{
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+    font-weight: bolder;
+    
+}
+
+div{
+    color: white;
+}
+
+.container{
+    background-image: url('https://i.redd.it/its-common-knowledge-that-silksong-official-artwork-is-a-v0-u94wyw4f52nf1.jpg?width=2048&format=pjpg&auto=webp&s=2b10c059960ed81eb991ccc237d770860594856d');
+    height: 700px;
+    width: 1200px;
+    background-position: center;
+    background-size: cover  ;
+}
