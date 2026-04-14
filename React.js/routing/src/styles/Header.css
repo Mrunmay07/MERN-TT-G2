@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem   m;
+}
+
+.nav-links{
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    justify-content: space-between;
+}
