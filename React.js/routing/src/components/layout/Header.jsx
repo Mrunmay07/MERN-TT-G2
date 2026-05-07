@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import '../../styles/Header.css'
 
 
@@ -9,9 +10,9 @@ function Header(){
             </div>
 
             <ul className="nav-links">
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Movies</a></li>
+                <li><NavLink to="/about">About</NavLink></li>
+                <li><NavLink to="/contact">Contact</NavLink></li>
+                <li><NavLink to="/movies">Movies</NavLink></li>
             </ul>
 
             <div className="nav-buttons">

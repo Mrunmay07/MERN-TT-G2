@@ -4,7 +4,7 @@
     color: white;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem   m;
+    padding: 1rem 3rem;
 }
 
 .nav-links{
@@ -12,4 +12,13 @@
     max-width: 300px;
     width: 100%;
     justify-content: space-between;
+    list-style: none;
+}
+
+.nav-links li a{
+    color: white;
+}
+
+.nav-links li a.active{
+    color: orange;
 }
