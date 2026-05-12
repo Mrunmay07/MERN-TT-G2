@@ -1,3 +1,4 @@
+import { composeWithDevTools } from "@redux-devtools/extension"
 import {createStore} from "redux"
 
 // Actions
@@ -6,7 +7,6 @@ const DELETE_TASK = 'task/delete'
 
 const initialState = {
     task:[],
-  
 }
 
 function reducer(state = initialState , action){
@@ -26,7 +26,7 @@ function reducer(state = initialState , action){
 }
 
 // Creating a Redux Store
-export const store = createStore(reducer)
+export const store = createStore(reducer, composeWithDevTools())
 console.log(store)
 
 store.subscribe(() => {
@@ -40,7 +40,7 @@ export function addTask(data){
 
 export function deleteTask(id){
     return {type:DELETE_TASK , payload:id}
-}
+}   
 
 store.dispatch(addTask('CODING'))
 
