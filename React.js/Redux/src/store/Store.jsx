@@ -26,17 +26,26 @@ function reducer(state = initialState , action){
 }
 
 // Creating a Redux Store
-const store = createStore(reducer)
+export const store = createStore(reducer)
 console.log(store)
 
 store.subscribe(() => {
     console.log(store.getState())
 })
 
-store.dispatch({type:ADD_TASK , payload:'CODING'})
+// action creators
+export function addTask(data){
+    return {type:ADD_TASK , payload:data}
+}
 
-store.dispatch({type:ADD_TASK , payload:'GAMING'})
+export function deleteTask(id){
+    return {type:DELETE_TASK , payload:id}
+}
 
-store.dispatch({type:ADD_TASK , payload:'STUDY'})
+store.dispatch(addTask('CODING'))
 
-store.dispatch({type:DELETE_TASK , payload:1})
+store.dispatch(addTask('GAMING'))
+
+store.dispatch(addTask('STUDY'))
+
+store.dispatch(deleteTask(1))
