@@ -4,8 +4,12 @@ import { useState } from "react";
 import { addTask, deleteTask } from "../store/Store";
 
 function Todo() {
+
+console.log('Hello world')
+
   const [task , setTask]=  useState('')
-  const todos = useSelector((state) => state.task);
+  const todos = useSelector((state) => state.taskReducer.task);
+  console.log(todos)
   const dispatch = useDispatch() // function 
   
 
