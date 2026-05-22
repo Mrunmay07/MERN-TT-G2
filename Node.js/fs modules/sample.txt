@@ -1,0 +1,14 @@
+UTF-8 in NodeJS
+October 28, 2025
+3 min read
+Handling character encoding correctly is crucial for robust applications, especially when dealing with international text or binary data in NodeJS. This guide dives into UTF-8, the de facto standard for text on the web, and how NodeJS natively supports it. You'll learn to ensure your strings are consistently interpreted, avoiding garbled characters and data corruption. By the end, you'll be confident in managing UTF-8 encoding for reliable data processing.
+
+Understanding UTF-8 in Node.js Buffers
+Node.js treats strings internally using UTF-16 encoding. However, when interacting with external data sources like files or network sockets, this data often arrives as a sequence of raw bytes. These byte sequences are managed by Node.js's Buffer objects, which provide a way to work directly with binary data.
+
+You can easily convert strings to buffers and vice-versa, specifying the intended encoding. For instance, to represent the Chinese phrase "你好世界" (Hello World) as UTF-8 encoded bytes, you'd do this:
+
+const buffer = Buffer.from('你好世界', 'utf8');
+const str = buffer.toString('utf8');
+console.log(str); // Output: 你好世界
+A common pitfall involves encoding mismatches. If you attempt to interpret UTF-8 data as, say, Latin-1, you'll encounter garbled text, often referred to as "mojibake." Always explicitly state 'utf8' when creating or reading UTF-8 data to prevent these issues. Ensure your encoding declarations match the actual data you're processing.
